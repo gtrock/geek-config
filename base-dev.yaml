@@ -14,31 +14,7 @@ spring:
             ddl-auto: update
         show-sql: true
         generate-ddl: true
-    profiles:
-        active: dev
-    config:
-        import: optional:configserver:http://root:s3cr3t@localhost:12000
-        
 
-    cloud:
-        bus:
-            enabled: true
-        refresh:
-            enabled: true
-        # config:
-        #     discovery:
-        #         service-id: config
-        #         enabled: true
-    kafka:
-        bootstrap-servers: 
-        - localhost:9092
-        
-management:
-    endpoints:
-        web:
-            exposure:
-                include: '*'
-        
 eureka:
   client:
     service-url:
