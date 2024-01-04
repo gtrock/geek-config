@@ -24,4 +24,4 @@ eureka:
 
 username: spring_config
 nickname: spring_test
-version: SNAP_TEST_021
+version: SNAP_TEST_020
