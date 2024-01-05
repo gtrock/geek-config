@@ -1,5 +1,5 @@
 server:
-    port: 9012
+    port: 9011
 spring:
     application:
         name: base #指定服务名
@@ -24,4 +24,4 @@ eureka:
 
 username: spring_config
 nickname: spring_test
-version: SNAP_TEST_021
+version: SNAP_TEST_020
